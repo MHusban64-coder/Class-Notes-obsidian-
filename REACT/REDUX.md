@@ -61,3 +61,61 @@ export default userSlice.reducer
 const user = userSelector((state)=>state.user.user)
 
 ```
+sir code is 
+```
+// contexapi - builten
+// use when global simple data
+// file - global (provider)
+// multiple pages
+// eg - theme , user , auth , cart , product , ...
+// main - (themeprovider(app)themeprovider)
+// (userprov(app)userprov)
+// (authprov(app)authprov)
+
+// redux  - npm
+// use when global complex data data
+//store
+//  auth
+// user
+// theme
+// 3 (store , switch , constants , reducers ,action ,state )
+// redux tool kit (RTK)
+// (action,reducer,state)
+
+import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import {setUser} from './redux/userSlice'
+function App() {
+  const user = useSelector((state) => state.user.user);
+  console.log("user in app=>", user);
+
+const dispatch = useDispatch()
+
+
+ const login = () => {
+    dispatch(setUser({
+      name: "ali",
+      email: "ali@gmail.com",
+      password: 123456,
+    }));
+  };
+
+  return (
+    <div>
+      app
+      <button onClick={login}>Login</button>
+      <button onClick={logout}>Logout</button>
+    </div>
+  );
+}
+
+export default App;
+
+import { configureStore } from "@reduxjs/toolkit";
+import userReducer from "./userSlice";
+export const store = configureStore({
+  reducer: {
+    user: userReducer,
+  },
+});
+```

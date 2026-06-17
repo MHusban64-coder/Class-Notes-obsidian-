@@ -11,10 +11,14 @@
             "id": "d274bafc209213c8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "REACT/REDUX.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "REDUX"
             }
           }
         ]
@@ -91,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "REACT/REDUX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for REDUX"
             }
           },
           {
@@ -109,11 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "REACT/REDUX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from REDUX"
             }
           },
           {
@@ -151,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "REDUX.md",
+                "file": "REACT/REDUX.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -159,9 +165,19 @@
               "icon": "lucide-list",
               "title": "Outline of REDUX"
             }
+          },
+          {
+            "id": "c69f0bd5b76e6c72",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -177,16 +193,15 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "ollama-assistant:Open Ollama Assistant": false,
       "vscode-editor:Create Code File": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f1802b5105314253",
+  "active": "d274bafc209213c8",
   "lastOpenFiles": [
+    "REDUX.md",
     "REACT/REDUX.md",
     "Pasted image 20260617100251.png",
-    "REDUX.md",
     "Untitled.canvas",
     "Welcome.md",
     "REACT"
